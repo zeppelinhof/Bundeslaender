@@ -1,0 +1,37 @@
+body{
+    margin: 5px;
+}
+
+
+.header{
+    background-color: #DDDDDD;
+    font-size: 24px;
+    padding: 12px;
+    margin-bottom: 24px;
+    font-weight: 700;
+}
+
+.content{
+    display: flex;
+    flex-wrap: wrap;
+}
+
+
+.bbox {
+    display: block;
+    text-decoration: none;
+    border: 5px solid #DDDDDD;
+    color: black;
+    padding-left: 10px;
+    width: calc(33.3333% - 10px);
+    box-sizing: border-box; /*sorgt dafür, dass der Rahmen trotz Padding nicht größer als 33% ist. Achtung: margin wird bei Box-sizing nicht eingeschlossen*/
+    margin: 5px; /*daher wird sie bei width für die Zwischenräume abgezogen*/
+}
+
+.bbox:hover{
+    border: 5px solid lightgrey;
+}
+
+.text-gray{
+    color: #DDDDDD;
+}
